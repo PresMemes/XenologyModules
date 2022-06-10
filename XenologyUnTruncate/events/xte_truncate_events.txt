@@ -1,0 +1,524 @@
+namespace = xte_truncate_ev
+country_event = {
+	#Bio Module events
+	id = xte_truncate_ev.1000
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = xte_un_bio_installed
+		is_machine_empire = no
+	}
+	immediate = {
+		every_owned_leader = {
+			limit = { NOT = { leader_class = envoy } }
+			leader_event = { id = xte_truncate_ev.1 }
+			leader_event = { id = xte_truncate_ev.2 }
+			leader_event = { id = xte_truncate_ev.3 }
+			leader_event = { id = xte_truncate_ev.4 }
+			leader_event = { id = xte_truncate_ev.5 }
+			leader_event = { id = xte_truncate_ev.6 }
+			leader_event = { id = xte_truncate_ev.7 }
+			leader_event = { id = xte_truncate_ev.8 }
+			leader_event = { id = xte_truncate_ev.9 }
+			leader_event = { id = xte_truncate_ev.10 }
+			leader_event = { id = xte_truncate_ev.11 }
+			leader_event = { id = xte_truncate_ev.12 }
+			leader_event = { id = xte_truncate_ev.13 }
+			leader_event = { id = xte_truncate_ev.14 }
+			leader_event = { id = xte_truncate_ev.15 }
+			leader_event = { id = xte_truncate_ev.16 }
+			leader_event = { id = xte_truncate_ev.17 }
+			leader_event = { id = xte_truncate_ev.18 }
+			leader_event = { id = xte_truncate_ev.19 }
+			leader_event = { id = xte_truncate_ev.20 }
+			leader_event = { id = xte_truncate_ev.21 }
+			leader_event = { id = xte_truncate_ev.22 }
+			leader_event = { id = xte_truncate_ev.23 }
+			leader_event = { id = xte_truncate_ev.24 }
+		}
+		every_pool_leader = {
+			limit = { NOT = { leader_class = envoy } }
+			leader_event = { id = xte_truncate_ev.1 }
+			leader_event = { id = xte_truncate_ev.2 }
+			leader_event = { id = xte_truncate_ev.3 }
+			leader_event = { id = xte_truncate_ev.4 }
+			leader_event = { id = xte_truncate_ev.5 }
+			leader_event = { id = xte_truncate_ev.6 }
+			leader_event = { id = xte_truncate_ev.7 }
+			leader_event = { id = xte_truncate_ev.8 }
+			leader_event = { id = xte_truncate_ev.9 }
+			leader_event = { id = xte_truncate_ev.10 }
+			leader_event = { id = xte_truncate_ev.11 }
+			leader_event = { id = xte_truncate_ev.12 }
+			leader_event = { id = xte_truncate_ev.13 }
+			leader_event = { id = xte_truncate_ev.14 }
+			leader_event = { id = xte_truncate_ev.15 }
+			leader_event = { id = xte_truncate_ev.16 }
+			leader_event = { id = xte_truncate_ev.17 }
+			leader_event = { id = xte_truncate_ev.18 }
+			leader_event = { id = xte_truncate_ev.19 }
+			leader_event = { id = xte_truncate_ev.20 }
+			leader_event = { id = xte_truncate_ev.21 }
+			leader_event = { id = xte_truncate_ev.22 }
+			leader_event = { id = xte_truncate_ev.23 }
+			leader_event = { id = xte_truncate_ev.24 }
+		}
+
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_admiral_inert
+			has_trait = trait_scientist_fastidious
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_sluggish
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_inert
+		remove_trait = trait_scientist_fastidious
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_admiral_arrogant
+			has_trait = trait_general_cavalier
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_prideful
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_arrogant
+		remove_trait = trait_general_cavalier
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_ruler_enlightened
+		species = {
+			NOT = {
+				has_trait = xte_trait_avant_garde
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_enlightened
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_admiral_gunnery_expert
+		species = {
+			NOT = {
+				has_trait = xte_trait_natural_chemists
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_gunnery_expert
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.5
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_admiral_propulsion_expert
+		species = {
+			NOT = {
+				has_trait = xte_trait_natural_refiners
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_propulsion_expert
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.6
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_admiral_computing_expert
+		species = {
+			NOT = { has_trait = xte_trait_natural_translucers }
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_computing_expert
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.7
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_lawbringer
+			has_trait = trait_governor_sheriff
+			has_trait = trait_admiral_gendarme
+		}
+		species = {
+			NOT = { has_trait = xte_trait_lawful }
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_lawbringer
+		remove_trait = trait_governor_sheriff
+		remove_trait = trait_admiral_gendarme
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.8
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_scientist_pathfinder
+		species = {
+			NOT = { has_trait = xte_trait_inquisitive }
+		}
+	}
+	immediate = {
+		remove_trait = trait_scientist_pathfinder
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.9
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_governor_patron_of_the_arts
+		species = {
+			NOT = {
+				has_trait = xte_trait_creative
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_governor_patron_of_the_arts
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.10
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_governor_forge_master
+		species = {
+			NOT = {
+				has_trait = xte_trait_crafty
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_governor_forge_master
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.11
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_governor_diligent
+		species = {
+			NOT = {
+				has_trait = xte_trait_humble
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_governor_diligent
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.12
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_ruler_regal
+		species = {
+			NOT = {
+				has_trait = xte_trait_illustrious
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_regal
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.13
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_admiral_carrier_commander
+			has_trait = trait_general_battle_mounts
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_gifted_pilots
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_carrier_commander
+		remove_trait = trait_general_battle_mounts
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.14
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_ruler_polymath
+		species = {
+			NOT = {
+				has_trait = xte_trait_flexible
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_polymath
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.15
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_governor_efficient
+		species = {
+			NOT = {
+				has_trait = xte_trait_urban
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_governor_efficient
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.16
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_admiral_underdog
+		species = {
+			NOT = {
+				has_trait = xte_trait_intrepid
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_admiral_underdog
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.17
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_life_weaver
+			has_trait = trait_governor_naturalist
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_practical
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_life_crafter
+		remove_trait = trait_governor_machinist
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.18
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_life_crafter
+			has_trait = trait_governor_machinist
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_theoretical
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_life_weaver
+		remove_trait = trait_governor_naturalist
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.19
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_governor_reliable
+		species = {
+			NOT = {
+				OR = {
+					has_trait = xte_trait_oligotrophs
+					has_trait = xte_trait_oligotrophs_lithoid
+				}
+			}
+		}
+	}
+	immediate = {
+		remove_trait = trait_governor_reliable
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.20
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_arcanist
+			has_trait = trait_general_forecaster
+			has_trait = trait_scientist_pioneer
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_analytical
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_arcanist
+		remove_trait = trait_general_forecaster
+		remove_trait = trait_scientist_pioneer
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.21
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_valiant
+			has_trait = trait_admiral_paladin
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_stalwart
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_valiant
+		remove_trait = trait_admiral_paladin
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.22
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_ancestral_knowledge
+			has_trait = trait_governor_ancestral_knowledge
+			has_trait = trait_scientist_ancestral_knowledge
+			has_trait = trait_admiral_ancestral_knowledge
+			has_trait = trait_general_ancestral_knowledge
+		}
+		species = {
+			NOT = {
+				has_trait = xte_trait_genetic_memory
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_ancestral_knowledge
+		remove_trait = trait_governor_ancestral_knowledge
+		remove_trait = trait_admiral_ancestral_knowledge
+		remove_trait = trait_general_ancestral_knowledge
+		remove_trait = trait_scientist_ancestral_knowledge
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.23
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_ruler_skyborne_architect
+		species = {
+			NOT = {
+				has_trait = xte_trait_megalomaniacs
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_skyborne_architect
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.24
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = trait_ruler_pertinacious
+			has_trait = trait_admiral_opportunistic
+		}
+		species = {
+			NOR = {
+				has_trait = xte_trait_apex_predator
+				has_trait = xte_trait_apex_predator_lithoid
+			}
+		}
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_pertinacious
+		remove_trait = trait_admiral_opportunistic
+	}
+}

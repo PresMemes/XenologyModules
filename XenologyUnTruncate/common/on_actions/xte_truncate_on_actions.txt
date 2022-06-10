@@ -1,0 +1,7 @@
+# This = Country
+# From = Species ( Post Modification )
+on_modification_complete = {
+	events = {
+		xte_truncate_ev.1000
+	}
+}
