@@ -1,14 +1,20 @@
 namespace = xte_truncate_ev
 country_event = {
-	#Bio Module events
 	id = xte_truncate_ev.1000
+	
 	hide_window = yes
 	is_triggered_only = yes
+	
 	trigger = {
 		has_global_flag = xte_un_bio_installed
-		is_machine_empire = no
+		OR = {
+			is_machine_empire = no
+			has_ascension_perk = ap_synthetic_evolution #PM: Need to remove perks from machine leaders
+		}
 	}
+	
 	immediate = {
+		#Bio Module events
 		every_owned_leader = {
 			limit = { NOT = { leader_class = envoy } }
 			leader_event = { id = xte_truncate_ev.1 }
