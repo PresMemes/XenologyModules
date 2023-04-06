@@ -41,6 +41,7 @@ country_event = {
 			leader_event = { id = xte_truncate_ev.22 }
 			leader_event = { id = xte_truncate_ev.23 }
 			leader_event = { id = xte_truncate_ev.24 }
+			leader_event = { id = xte_truncate_ev.25 }
 		}
 		every_pool_leader = {
 			limit = { NOT = { leader_class = envoy } }
@@ -68,6 +69,7 @@ country_event = {
 			leader_event = { id = xte_truncate_ev.22 }
 			leader_event = { id = xte_truncate_ev.23 }
 			leader_event = { id = xte_truncate_ev.24 }
+			leader_event = { id = xte_truncate_ev.25 }
 		}
 
 	}
@@ -524,5 +526,18 @@ leader_event = {
 	immediate = {
 		remove_ruler_trait = trait_ruler_pertinacious
 		remove_trait = trait_admiral_opportunistic
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.25
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = trait_ruler_land_of_the_free
+		NOT = { has_trait = xte_trait_unbound }
+	}
+	immediate = {
+		remove_ruler_trait = trait_ruler_land_of_the_free
 	}
 }

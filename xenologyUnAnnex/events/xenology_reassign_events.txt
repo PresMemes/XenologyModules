@@ -14,537 +14,104 @@ country_event = {
 			switch = {
 				trigger = leader_class
 				ruler = {
-					leader_event = { id =  xte_annex_ev.3 }
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.12 }
-					leader_event = { id =  xte_annex_ev.14 }
-					leader_event = { id =  xte_annex_ev.17 }
-					leader_event = { id =  xte_annex_ev.18 }
-					leader_event = { id =  xte_annex_ev.20 }
-					leader_event = { id =  xte_annex_ev.21 }
-					leader_event = { id =  xte_annex_ev.23 }
-					leader_event = { id =  xte_annex_ev.24 }
+					leader_event = { id =  xte_traits_ev.3 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.12 }
+					leader_event = { id =  xte_traits_ev.14 }
+					leader_event = { id =  xte_traits_ev.17 }
+					leader_event = { id =  xte_traits_ev.18 }
+					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.23 }
+					leader_event = { id =  xte_traits_ev.24 }
 				}
 				governor = {
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.9 }
-					leader_event = { id =  xte_annex_ev.10 }
-					leader_event = { id =  xte_annex_ev.11 }
-					leader_event = { id =  xte_annex_ev.15 }
-					leader_event = { id =  xte_annex_ev.17 }
-					leader_event = { id =  xte_annex_ev.18 }
-					leader_event = { id =  xte_annex_ev.19 }
-					leader_event = { id =  xte_annex_ev.21 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.9 }
+					leader_event = { id =  xte_traits_ev.10 }
+					leader_event = { id =  xte_traits_ev.11 }
+					leader_event = { id =  xte_traits_ev.15 }
+					leader_event = { id =  xte_traits_ev.17 }
+					leader_event = { id =  xte_traits_ev.18 }
+					leader_event = { id =  xte_traits_ev.19 }
+					leader_event = { id =  xte_traits_ev.21 }
 				}
 				scientist = {
-					leader_event = { id =  xte_annex_ev.1 }
-					leader_event = { id =  xte_annex_ev.8 }
-					leader_event = { id =  xte_annex_ev.20 }
+					leader_event = { id =  xte_traits_ev.1 }
+					leader_event = { id =  xte_traits_ev.8 }
+					leader_event = { id =  xte_traits_ev.20 }
 				}
 				admiral = {
-					leader_event = { id =  xte_annex_ev.1 }
-					leader_event = { id =  xte_annex_ev.2 }
-					leader_event = { id =  xte_annex_ev.4 }
-					leader_event = { id =  xte_annex_ev.5 }
-					leader_event = { id =  xte_annex_ev.6 }
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.13 }
-					leader_event = { id =  xte_annex_ev.16 }
-					leader_event = { id =  xte_annex_ev.21 }
-					leader_event = { id =  xte_annex_ev.24 }
+					leader_event = { id =  xte_traits_ev.1 }
+					leader_event = { id =  xte_traits_ev.2 }
+					leader_event = { id =  xte_traits_ev.4 }
+					leader_event = { id =  xte_traits_ev.5 }
+					leader_event = { id =  xte_traits_ev.6 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.13 }
+					leader_event = { id =  xte_traits_ev.16 }
+					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.24 }
 				}
 				general = {
-					leader_event = { id =  xte_annex_ev.2 }
-					leader_event = { id =  xte_annex_ev.13 }
-					leader_event = { id =  xte_annex_ev.20 }
+					leader_event = { id =  xte_traits_ev.2 }
+					leader_event = { id =  xte_traits_ev.13 }
+					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			leader_event = { id = xte_annex_ev.22 } # Genetic Memory, no need to check for leader class
+			leader_event = { id = xte_traits_ev.22 } # Genetic Memory, no need to check for leader class
 		}
 		every_pool_leader = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
 				ruler = {
-					leader_event = { id =  xte_annex_ev.3 }
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.12 }
-					leader_event = { id =  xte_annex_ev.14 }
-					leader_event = { id =  xte_annex_ev.17 }
-					leader_event = { id =  xte_annex_ev.18 }
-					leader_event = { id =  xte_annex_ev.20 }
-					leader_event = { id =  xte_annex_ev.21 }
-					leader_event = { id =  xte_annex_ev.23 }
-					leader_event = { id =  xte_annex_ev.24 }
+					leader_event = { id =  xte_traits_ev.3 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.12 }
+					leader_event = { id =  xte_traits_ev.14 }
+					leader_event = { id =  xte_traits_ev.17 }
+					leader_event = { id =  xte_traits_ev.18 }
+					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.23 }
+					leader_event = { id =  xte_traits_ev.24 }
 				}
 				governor = {
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.9 }
-					leader_event = { id =  xte_annex_ev.10 }
-					leader_event = { id =  xte_annex_ev.11 }
-					leader_event = { id =  xte_annex_ev.15 }
-					leader_event = { id =  xte_annex_ev.17 }
-					leader_event = { id =  xte_annex_ev.18 }
-					leader_event = { id =  xte_annex_ev.19 }
-					leader_event = { id =  xte_annex_ev.21 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.9 }
+					leader_event = { id =  xte_traits_ev.10 }
+					leader_event = { id =  xte_traits_ev.11 }
+					leader_event = { id =  xte_traits_ev.15 }
+					leader_event = { id =  xte_traits_ev.17 }
+					leader_event = { id =  xte_traits_ev.18 }
+					leader_event = { id =  xte_traits_ev.19 }
+					leader_event = { id =  xte_traits_ev.21 }
 				}
 				scientist = {
-					leader_event = { id =  xte_annex_ev.1 }
-					leader_event = { id =  xte_annex_ev.8 }
-					leader_event = { id =  xte_annex_ev.20 }
+					leader_event = { id =  xte_traits_ev.1 }
+					leader_event = { id =  xte_traits_ev.8 }
+					leader_event = { id =  xte_traits_ev.20 }
 				}
 				admiral = {
-					leader_event = { id =  xte_annex_ev.1 }
-					leader_event = { id =  xte_annex_ev.2 }
-					leader_event = { id =  xte_annex_ev.4 }
-					leader_event = { id =  xte_annex_ev.5 }
-					leader_event = { id =  xte_annex_ev.6 }
-					leader_event = { id =  xte_annex_ev.7 }
-					leader_event = { id =  xte_annex_ev.13 }
-					leader_event = { id =  xte_annex_ev.16 }
-					leader_event = { id =  xte_annex_ev.21 }
-					leader_event = { id =  xte_annex_ev.24 }
+					leader_event = { id =  xte_traits_ev.1 }
+					leader_event = { id =  xte_traits_ev.2 }
+					leader_event = { id =  xte_traits_ev.4 }
+					leader_event = { id =  xte_traits_ev.5 }
+					leader_event = { id =  xte_traits_ev.6 }
+					leader_event = { id =  xte_traits_ev.7 }
+					leader_event = { id =  xte_traits_ev.13 }
+					leader_event = { id =  xte_traits_ev.16 }
+					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.24 }
 				}
 				general = {
-					leader_event = { id =  xte_annex_ev.2 }
-					leader_event = { id =  xte_annex_ev.13 }
-					leader_event = { id =  xte_annex_ev.20 }
+					leader_event = { id =  xte_traits_ev.2 }
+					leader_event = { id =  xte_traits_ev.13 }
+					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			leader_event = { id = xte_annex_ev.22 }
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.1
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_sluggish }
-		NOR = {
-			has_trait = trait_admiral_inert
-			has_trait = trait_scientist_fastidious
-		}
-	}
-	immediate = {
-		switch = {
-			trigger = leader_class
-			admiral = {
-				add_trait = trait_admiral_inert
-			}
-			scientist = {
-				add_trait = trait_scientist_fastidious
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.2
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_prideful }
-		NOR = {
-			has_trait = trait_admiral_arrogant
-			has_trait = trait_general_cavalier
-		}
-	}
-	immediate = {
-		switch = {
-			trigger = leader_class
-			admiral = {
-				add_trait = trait_admiral_arrogant
-			}
-			general = {
-				add_trait = trait_general_cavalier
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.3
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_avant_garde }
-		NOT = { has_trait = trait_ruler_enlightened }
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_enlightened
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.4
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_natural_chemists }
-		NOT = { has_trait = trait_admiral_gunnery_expert }
-	}
-	immediate = {
-		add_trait = trait_admiral_gunnery_expert
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.5
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_natural_refiners }
-		NOT = { has_trait = trait_admiral_propulsion_expert }
-	}
-	immediate = {
-		add_trait = trait_admiral_propulsion_expert
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.6
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_natural_translucers }
-		NOT = { has_trait = trait_admiral_computing_expert }
-	}
-	immediate = {
-		add_trait = trait_admiral_computing_expert
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.7
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_lawful }
-		NOR = {
-			has_trait = trait_ruler_lawbringer
-			has_trait = trait_governor_sheriff
-			has_trait = trait_admiral_gendarme
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_lawbringer
-		switch = {
-			trigger = leader_class
-			governor = {
-				add_trait = trait_governor_sheriff
-			}
-			admiral = {
-				add_trait = trait_admiral_gendarme
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.8
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_inquisitive }
-		NOT = { has_trait = trait_scientist_pathfinder }
-	}
-	immediate = {
-		add_trait = trait_scientist_pathfinder
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.9
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_creative }
-		NOT = { has_trait = trait_governor_patron_of_the_arts }
-	}
-	immediate = {
-		add_trait = trait_governor_patron_of_the_arts
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.10
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_crafty }
-		NOT = { has_trait = trait_governor_forge_master }
-	}
-	immediate = {
-		add_trait = trait_governor_forge_master
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.11
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_humble }
-		NOT = { has_trait = trait_governor_diligent }
-	}
-	immediate = {
-		add_trait = trait_governor_diligent
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.12
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_illustrious }
-		NOT = { has_trait = trait_ruler_regal }
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_regal
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.13
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_gifted_pilots }
-		NOR = {
-			has_trait = trait_admiral_carrier_commander
-			has_trait = trait_general_battle_mounts
-		}
-	}
-	immediate = {
-		switch = {
-			trigger = leader_class
-			admiral = {
-				add_trait = trait_admiral_carrier_commander
-			}
-			general = {
-				add_trait = trait_general_battle_mounts
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.14
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_flexible }
-		NOT = { has_trait = trait_ruler_polymath }
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_polymath
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.15
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_urban }
-		NOT = { has_trait = trait_governor_efficient }
-	}
-	immediate = {
-		add_trait = trait_governor_efficient
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.16
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_intrepid }
-		NOT = { has_trait = trait_admiral_underdog }
-	}
-	immediate = {
-		add_trait = trait_admiral_underdog
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.17
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_practical }
-		NOR = {
-			has_trait = trait_ruler_life_crafter
-			has_trait = trait_governor_machinist
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_life_crafter
-		if = {
-			limit = { leader_class = governor }
-			add_trait = trait_governor_machinist
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.18
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_theoretical }
-		NOR = {
-			has_trait = trait_ruler_life_weaver
-			has_trait = trait_governor_naturalist
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_life_weaver
-		if = {
-			limit = { leader_class = governor }
-			add_trait = trait_governor_naturalist
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.19
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = {
-			OR = {
-				has_trait = xte_trait_oligotrophs
-				has_trait = xte_trait_oligotrophs_lithoid
-			}
-		}
-		NOT = { has_trait = trait_governor_reliable }
-	}
-	immediate = {
-		add_trait = trait_governor_reliable
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.20
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_analytical }
-		NOR = {
-			has_trait = trait_ruler_arcanist
-			has_trait = trait_general_forecaster
-			has_trait = trait_scientist_pioneer
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_arcanist
-		switch = {
-			trigger = leader_class
-			general = {
-				add_trait = trait_general_forecaster
-			}
-			scientist = {
-				add_trait = trait_scientist_pioneer
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.21
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_stalwart }
-		NOR = {
-			has_trait = trait_ruler_valiant
-			has_trait = trait_admiral_paladin
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_valiant
-		if = {
-			limit = { leader_class = admiral }
-			add_trait = trait_governor_reliable
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.22
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_genetic_memory }
-		NOR = {
-			has_trait = trait_ruler_ancestral_knowledge
-			has_trait = trait_governor_ancestral_knowledge
-			has_trait = trait_scientist_ancestral_knowledge
-			has_trait = trait_admiral_ancestral_knowledge
-			has_trait = trait_general_ancestral_knowledge
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_ancestral_knowledge
-		switch = {
-			trigger = leader_class
-			ruler = {
-				add_trait = trait_ruler_ancestral_knowledge
-			}
-			governor = {
-				add_trait = trait_governor_ancestral_knowledge
-			}
-			admiral = {
-				add_trait = trait_admiral_ancestral_knowledge
-			}
-			general = {
-				add_trait = trait_general_ancestral_knowledge
-			}
-			scientist = {
-				add_trait = trait_scientist_ancestral_knowledge
-			}
-		}
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.23
-	is_triggered_only = yes
-	hide_window = yes
-	trigger = {
-		species = { has_trait = xte_trait_megalomaniacs }
-		NOT = { has_trait = trait_ruler_skyborne_architect }
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_skyborne_architect
-	}
-}
-
-leader_event = {
-	id = xte_annex_ev.24
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		species = {
-			OR = {
-				has_trait = xte_trait_apex_predator
-				has_trait = xte_trait_apex_predator_lithoid
-			}
-		}
-		NOR = {
-			has_trait = trait_ruler_pertinacious
-			has_trait = trait_admiral_opportunistic
-		}
-	}
-	immediate = {
-		add_ruler_trait = trait_ruler_pertinacious
-		if = {
-			limit = { leader_class = admiral }
-			add_trait = trait_admiral_opportunistic
+			leader_event = { id = xte_traits_ev.22 }
 		}
 	}
 }
