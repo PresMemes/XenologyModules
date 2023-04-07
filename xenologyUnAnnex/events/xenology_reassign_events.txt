@@ -13,18 +13,6 @@ country_event = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				ruler = {
-					leader_event = { id =  xte_traits_ev.3 }
-					leader_event = { id =  xte_traits_ev.7 }
-					leader_event = { id =  xte_traits_ev.12 }
-					leader_event = { id =  xte_traits_ev.14 }
-					leader_event = { id =  xte_traits_ev.17 }
-					leader_event = { id =  xte_traits_ev.18 }
-					leader_event = { id =  xte_traits_ev.20 }
-					leader_event = { id =  xte_traits_ev.21 }
-					leader_event = { id =  xte_traits_ev.23 }
-					leader_event = { id =  xte_traits_ev.24 }
-				}
 				governor = {
 					leader_event = { id =  xte_traits_ev.7 }
 					leader_event = { id =  xte_traits_ev.9 }
@@ -59,24 +47,24 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			leader_event = { id = xte_traits_ev.22 } # Genetic Memory, no need to check for leader class
+			
+			# Universal/Ruler Traits
+			leader_event = { id =  xte_traits_ev.3 }
+			leader_event = { id =  xte_traits_ev.7 }
+			leader_event = { id =  xte_traits_ev.12 }
+			leader_event = { id =  xte_traits_ev.14 }
+			leader_event = { id =  xte_traits_ev.17 }
+			leader_event = { id =  xte_traits_ev.18 }
+			leader_event = { id =  xte_traits_ev.20 }
+			leader_event = { id =  xte_traits_ev.21 }
+			leader_event = { id = xte_traits_ev.22 }
+			leader_event = { id =  xte_traits_ev.23 }
+			leader_event = { id =  xte_traits_ev.24 }
 		}
 		every_pool_leader = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				ruler = {
-					leader_event = { id =  xte_traits_ev.3 }
-					leader_event = { id =  xte_traits_ev.7 }
-					leader_event = { id =  xte_traits_ev.12 }
-					leader_event = { id =  xte_traits_ev.14 }
-					leader_event = { id =  xte_traits_ev.17 }
-					leader_event = { id =  xte_traits_ev.18 }
-					leader_event = { id =  xte_traits_ev.20 }
-					leader_event = { id =  xte_traits_ev.21 }
-					leader_event = { id =  xte_traits_ev.23 }
-					leader_event = { id =  xte_traits_ev.24 }
-				}
 				governor = {
 					leader_event = { id =  xte_traits_ev.7 }
 					leader_event = { id =  xte_traits_ev.9 }
@@ -111,7 +99,19 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
+			
+			# Universal/Ruler Traits
+			leader_event = { id =  xte_traits_ev.3 }
+			leader_event = { id =  xte_traits_ev.7 }
+			leader_event = { id =  xte_traits_ev.12 }
+			leader_event = { id =  xte_traits_ev.14 }
+			leader_event = { id =  xte_traits_ev.17 }
+			leader_event = { id =  xte_traits_ev.18 }
+			leader_event = { id =  xte_traits_ev.20 }
+			leader_event = { id =  xte_traits_ev.21 }
 			leader_event = { id = xte_traits_ev.22 }
+			leader_event = { id =  xte_traits_ev.23 }
+			leader_event = { id =  xte_traits_ev.24 }
 		}
 	}
 }
