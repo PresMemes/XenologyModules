@@ -49,17 +49,19 @@ country_event = {
 			}
 			
 			# Universal/Ruler Traits
-			leader_event = { id =  xte_traits_ev.3 }
-			leader_event = { id =  xte_traits_ev.7 }
-			leader_event = { id =  xte_traits_ev.12 }
-			leader_event = { id =  xte_traits_ev.14 }
-			leader_event = { id =  xte_traits_ev.17 }
-			leader_event = { id =  xte_traits_ev.18 }
-			leader_event = { id =  xte_traits_ev.20 }
-			leader_event = { id =  xte_traits_ev.21 }
+			leader_event = { id = xte_traits_ev.3 }
+			leader_event = { id = xte_traits_ev.7 }
+			leader_event = { id = xte_traits_ev.12 }
+			leader_event = { id = xte_traits_ev.14 }
+			leader_event = { id = xte_traits_ev.17 }
+			leader_event = { id = xte_traits_ev.18 }
+			leader_event = { id = xte_traits_ev.20 }
+			leader_event = { id = xte_traits_ev.21 }
 			leader_event = { id = xte_traits_ev.22 }
-			leader_event = { id =  xte_traits_ev.23 }
-			leader_event = { id =  xte_traits_ev.24 }
+			leader_event = { id = xte_traits_ev.23 }
+			leader_event = { id = xte_traits_ev.24 }
+			leader_event = { id = xte_traits_ev.25 }
+			leader_event = { id = xte_traits_ev.26 }
 		}
 		every_pool_leader = {
 			limit = { NOT = { leader_class = envoy } }
@@ -101,17 +103,19 @@ country_event = {
 			}
 			
 			# Universal/Ruler Traits
-			leader_event = { id =  xte_traits_ev.3 }
-			leader_event = { id =  xte_traits_ev.7 }
-			leader_event = { id =  xte_traits_ev.12 }
-			leader_event = { id =  xte_traits_ev.14 }
-			leader_event = { id =  xte_traits_ev.17 }
-			leader_event = { id =  xte_traits_ev.18 }
-			leader_event = { id =  xte_traits_ev.20 }
-			leader_event = { id =  xte_traits_ev.21 }
+			leader_event = { id = xte_traits_ev.3 }
+			leader_event = { id = xte_traits_ev.7 }
+			leader_event = { id = xte_traits_ev.12 }
+			leader_event = { id = xte_traits_ev.14 }
+			leader_event = { id = xte_traits_ev.17 }
+			leader_event = { id = xte_traits_ev.18 }
+			leader_event = { id = xte_traits_ev.20 }
+			leader_event = { id = xte_traits_ev.21 }
 			leader_event = { id = xte_traits_ev.22 }
-			leader_event = { id =  xte_traits_ev.23 }
-			leader_event = { id =  xte_traits_ev.24 }
+			leader_event = { id = xte_traits_ev.23 }
+			leader_event = { id = xte_traits_ev.24 }
+			leader_event = { id = xte_traits_ev.25 }
+			leader_event = { id = xte_traits_ev.26 }
 		}
 	}
 }
