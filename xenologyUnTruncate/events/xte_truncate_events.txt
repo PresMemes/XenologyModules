@@ -119,10 +119,7 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_enlightened
-			has_trait = trait_ruler_enlightened
-		}
+		has_trait = trait_ruler_enlightened
 		species = {
 			NOT = {
 				has_trait = xte_trait_avant_garde
@@ -130,7 +127,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_enlightened
+		remove_trait = trait_ruler_enlightened
 	}
 }
 
@@ -185,10 +182,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_lawbringer
-				has_trait = trait_ruler_lawbringer
-			}
+			has_trait = trait_ruler_lawbringer
 			has_trait = trait_governor_sheriff
 			has_trait = trait_admiral_gendarme
 		}
@@ -197,7 +191,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_lawbringer
+		remove_trait = trait_ruler_lawbringer
 		remove_trait = trait_governor_sheriff
 		remove_trait = trait_admiral_gendarme
 	}
@@ -268,16 +262,13 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_regal
-			has_trait = trait_ruler_regal
-		}
+		has_trait = trait_ruler_regal
 		species = {
 			NOT = { has_trait = xte_trait_illustrious }
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_regal
+		remove_trait = trait_ruler_regal
 	}
 }
 
@@ -305,16 +296,13 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_polymath
-			has_trait = trait_ruler_polymath
-		}
+		has_trait = trait_ruler_polymath
 		species = {
 			NOT = { has_trait = xte_trait_flexible }
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_polymath
+		remove_trait = trait_ruler_polymath
 	}
 }
 
@@ -354,10 +342,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_life_weaver
-				has_trait = trait_ruler_life_weaver
-			}
+			has_trait = trait_ruler_life_weaver
 			has_trait = trait_governor_naturalist
 		}
 		species = {
@@ -365,7 +350,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_life_crafter
+		remove_trait = trait_ruler_life_crafter
 		remove_trait = trait_governor_machinist
 	}
 }
@@ -376,10 +361,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_life_crafter
-				has_trait = trait_ruler_life_crafter
-			}
+			has_trait = trait_ruler_life_crafter
 			has_trait = trait_governor_machinist
 		}
 		species = {
@@ -387,7 +369,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_life_weaver
+		remove_trait = trait_ruler_life_weaver
 		remove_trait = trait_governor_naturalist
 	}
 }
@@ -416,10 +398,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_arcanist
-				has_trait = trait_ruler_arcanist
-			}
+			has_trait = trait_ruler_arcanist
 			has_trait = trait_general_forecaster
 			has_trait = trait_scientist_pioneer
 		}
@@ -428,7 +407,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_arcanist
+		remove_trait = trait_ruler_arcanist
 		remove_trait = trait_general_forecaster
 		remove_trait = trait_scientist_pioneer
 	}
@@ -440,10 +419,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_valiant
-				has_trait = trait_ruler_valiant
-			}
+			has_trait = trait_ruler_valiant
 			has_trait = trait_admiral_paladin
 		}
 		species = {
@@ -451,7 +427,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_valiant
+		remove_trait = trait_ruler_valiant
 		remove_trait = trait_admiral_paladin
 	}
 }
@@ -462,25 +438,14 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_ancestral_knowledge
-				has_trait = trait_ruler_ancestral_knowledge
-			}
-			has_trait = trait_governor_ancestral_knowledge
-			has_trait = trait_scientist_ancestral_knowledge
-			has_trait = trait_admiral_ancestral_knowledge
-			has_trait = trait_general_ancestral_knowledge
+			has_trait = trait_ruler_ancestral_knowledge
 		}
 		species = {
 			NOT = { has_trait = xte_trait_genetic_memory }
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_ancestral_knowledge
-		remove_trait = trait_governor_ancestral_knowledge
-		remove_trait = trait_admiral_ancestral_knowledge
-		remove_trait = trait_general_ancestral_knowledge
-		remove_trait = trait_scientist_ancestral_knowledge
+		remove_trait = trait_ruler_ancestral_knowledge
 	}
 }
 
@@ -489,16 +454,13 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_skyborne_architect
-			has_trait = trait_ruler_skyborne_architect
-		}
+		has_trait = trait_ruler_skyborne_architect
 		species = {
 			NOT = { has_trait = xte_trait_megalomaniacs }
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_skyborne_architect
+		remove_trait = trait_ruler_skyborne_architect
 	}
 }
 
@@ -508,10 +470,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			OR = {
-				has_ruler_trait = trait_ruler_pertinacious
-				has_trait = trait_ruler_pertinacious
-			}
+			has_trait = trait_ruler_pertinacious
 			has_trait = trait_admiral_opportunistic
 		}
 		species = {
@@ -522,7 +481,7 @@ leader_event = {
 		}
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_pertinacious
+		remove_trait = trait_ruler_pertinacious
 		remove_trait = trait_admiral_opportunistic
 	}
 }
@@ -532,14 +491,11 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_land_of_the_free
-			has_trait = trait_ruler_land_of_the_free
-		}
+		has_trait = trait_ruler_land_of_the_free
 		species = { NOT = { has_trait = xte_trait_unbound } }
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_land_of_the_free
+		remove_trait = trait_ruler_land_of_the_free
 	}
 }
 
@@ -548,13 +504,10 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		OR = {
-			has_ruler_trait = trait_ruler_maladroit
-			has_trait = trait_ruler_maladroit
-		}
+		has_trait = trait_ruler_maladroit
 		species = { NOT = { has_trait = xte_trait_inept } }
 	}
 	immediate = {
-		remove_ruler_trait = trait_ruler_maladroit
+		remove_trait = trait_ruler_maladroit
 	}
 }
