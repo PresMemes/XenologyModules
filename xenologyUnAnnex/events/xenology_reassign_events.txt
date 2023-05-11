@@ -47,7 +47,7 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			
+
 			# Universal/Ruler Traits
 			leader_event = { id = xte_traits_ev.3 }
 			leader_event = { id = xte_traits_ev.7 }
@@ -101,8 +101,8 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			
-			# Universal/Ruler Traits
+
+			# Universal Traits
 			leader_event = { id = xte_traits_ev.3 }
 			leader_event = { id = xte_traits_ev.7 }
 			leader_event = { id = xte_traits_ev.12 }
