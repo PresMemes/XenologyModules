@@ -1,0 +1,1 @@
+@xte_anti_stack_base_value = 1.5
