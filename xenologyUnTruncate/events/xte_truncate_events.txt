@@ -342,8 +342,8 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			has_trait = xte_leader_trait_life_weaver
-			has_trait = xte_governor_trait_naturalist
+			has_trait = xte_leader_trait_life_crafter
+			has_trait = xte_governor_trait_machinist
 		}
 		species = {
 			NOT = { has_trait = xte_trait_practical }
@@ -361,8 +361,8 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			has_trait = xte_leader_trait_life_crafter
-			has_trait = xte_governor_trait_machinist
+			has_trait = xte_leader_trait_life_weaver
+			has_trait = xte_governor_trait_naturalist
 		}
 		species = {
 			NOT = { has_trait = xte_trait_theoretical }
