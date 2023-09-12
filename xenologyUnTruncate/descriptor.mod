@@ -5,6 +5,6 @@ tags={
 	"Gameplay"
 	"Overhaul"
 }
-name="Xenology : Traits Expansion Unofficial - Truncate Module (3.8.X)"
-supported_version="3.8.*"
+name="Xenology : Traits Expansion Unofficial - Truncate Module (3.9.X)"
+supported_version="3.9.*"
 remote_file_id="2810447305"
