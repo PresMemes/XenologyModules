@@ -1,4 +1,5 @@
 namespace = xte_truncate_ev
+
 country_event = {
 	id = xte_truncate_ev.1000
 
@@ -14,28 +15,57 @@ country_event = {
 	}
 
 	immediate = {
-		#Bio Module events
 		every_owned_leader = {
 			limit = { NOT = { leader_class = envoy } }
-			leader_event = { id = xte_truncate_ev.1 }
-			leader_event = { id = xte_truncate_ev.2 }
+			switch = {
+				trigger = leader_class
+				governor = {
+					leader_event = { id =  xte_truncate_ev.7 }
+					leader_event = { id =  xte_truncate_ev.9 }
+					leader_event = { id =  xte_truncate_ev.10 }
+					leader_event = { id =  xte_truncate_ev.11 }
+					leader_event = { id =  xte_truncate_ev.15 }
+					leader_event = { id =  xte_truncate_ev.17 }
+					leader_event = { id =  xte_truncate_ev.18 }
+					leader_event = { id =  xte_truncate_ev.19 }
+					leader_event = { id =  xte_truncate_ev.21 }
+					leader_event = { id =  xte_truncate_ev.28 }
+					leader_event = { id =  xte_truncate_ev.29 }
+				}
+				scientist = {
+					leader_event = { id =  xte_truncate_ev.1 }
+					leader_event = { id =  xte_truncate_ev.8 }
+					leader_event = { id =  xte_truncate_ev.20 }
+					leader_event = { id =  xte_truncate_ev.28 }
+				}
+				admiral = {
+					leader_event = { id =  xte_truncate_ev.1 }
+					leader_event = { id =  xte_truncate_ev.2 }
+					leader_event = { id =  xte_truncate_ev.4 }
+					leader_event = { id =  xte_truncate_ev.5 }
+					leader_event = { id =  xte_truncate_ev.6 }
+					leader_event = { id =  xte_truncate_ev.7 }
+					leader_event = { id =  xte_truncate_ev.13 }
+					leader_event = { id =  xte_truncate_ev.16 }
+					leader_event = { id =  xte_truncate_ev.21 }
+					leader_event = { id =  xte_truncate_ev.24 }
+					leader_event = { id =  xte_truncate_ev.27 }
+				}
+				general = {
+					leader_event = { id =  xte_truncate_ev.2 }
+					leader_event = { id =  xte_truncate_ev.13 }
+					leader_event = { id =  xte_truncate_ev.20 }
+					leader_event = { id =  xte_truncate_ev.27 }
+				}
+			}
+
+			# Universal/Ruler Traits
 			leader_event = { id = xte_truncate_ev.3 }
-			leader_event = { id = xte_truncate_ev.4 }
-			leader_event = { id = xte_truncate_ev.5 }
-			leader_event = { id = xte_truncate_ev.6 }
 			leader_event = { id = xte_truncate_ev.7 }
-			leader_event = { id = xte_truncate_ev.8 }
-			leader_event = { id = xte_truncate_ev.9 }
-			leader_event = { id = xte_truncate_ev.10 }
-			leader_event = { id = xte_truncate_ev.11 }
 			leader_event = { id = xte_truncate_ev.12 }
-			leader_event = { id = xte_truncate_ev.13 }
 			leader_event = { id = xte_truncate_ev.14 }
-			leader_event = { id = xte_truncate_ev.15 }
-			leader_event = { id = xte_truncate_ev.16 }
 			leader_event = { id = xte_truncate_ev.17 }
 			leader_event = { id = xte_truncate_ev.18 }
-			leader_event = { id = xte_truncate_ev.19 }
 			leader_event = { id = xte_truncate_ev.20 }
 			leader_event = { id = xte_truncate_ev.21 }
 			leader_event = { id = xte_truncate_ev.22 }
@@ -46,25 +76,55 @@ country_event = {
 		}
 		every_pool_leader = {
 			limit = { NOT = { leader_class = envoy } }
-			leader_event = { id = xte_truncate_ev.1 }
-			leader_event = { id = xte_truncate_ev.2 }
+			switch = {
+				trigger = leader_class
+				governor = {
+					leader_event = { id =  xte_truncate_ev.7 }
+					leader_event = { id =  xte_truncate_ev.9 }
+					leader_event = { id =  xte_truncate_ev.10 }
+					leader_event = { id =  xte_truncate_ev.11 }
+					leader_event = { id =  xte_truncate_ev.15 }
+					leader_event = { id =  xte_truncate_ev.17 }
+					leader_event = { id =  xte_truncate_ev.18 }
+					leader_event = { id =  xte_truncate_ev.19 }
+					leader_event = { id =  xte_truncate_ev.21 }
+					leader_event = { id =  xte_truncate_ev.28 }
+					leader_event = { id =  xte_truncate_ev.29 }
+				}
+				scientist = {
+					leader_event = { id =  xte_truncate_ev.1 }
+					leader_event = { id =  xte_truncate_ev.8 }
+					leader_event = { id =  xte_truncate_ev.20 }
+					leader_event = { id =  xte_truncate_ev.28 }
+				}
+				admiral = {
+					leader_event = { id =  xte_truncate_ev.1 }
+					leader_event = { id =  xte_truncate_ev.2 }
+					leader_event = { id =  xte_truncate_ev.4 }
+					leader_event = { id =  xte_truncate_ev.5 }
+					leader_event = { id =  xte_truncate_ev.6 }
+					leader_event = { id =  xte_truncate_ev.7 }
+					leader_event = { id =  xte_truncate_ev.13 }
+					leader_event = { id =  xte_truncate_ev.16 }
+					leader_event = { id =  xte_truncate_ev.21 }
+					leader_event = { id =  xte_truncate_ev.24 }
+					leader_event = { id =  xte_truncate_ev.27 }
+				}
+				general = {
+					leader_event = { id =  xte_truncate_ev.2 }
+					leader_event = { id =  xte_truncate_ev.13 }
+					leader_event = { id =  xte_truncate_ev.20 }
+					leader_event = { id =  xte_truncate_ev.27 }
+				}
+			}
+
+			# Universal Traits
 			leader_event = { id = xte_truncate_ev.3 }
-			leader_event = { id = xte_truncate_ev.4 }
-			leader_event = { id = xte_truncate_ev.5 }
-			leader_event = { id = xte_truncate_ev.6 }
 			leader_event = { id = xte_truncate_ev.7 }
-			leader_event = { id = xte_truncate_ev.8 }
-			leader_event = { id = xte_truncate_ev.9 }
-			leader_event = { id = xte_truncate_ev.10 }
-			leader_event = { id = xte_truncate_ev.11 }
 			leader_event = { id = xte_truncate_ev.12 }
-			leader_event = { id = xte_truncate_ev.13 }
 			leader_event = { id = xte_truncate_ev.14 }
-			leader_event = { id = xte_truncate_ev.15 }
-			leader_event = { id = xte_truncate_ev.16 }
 			leader_event = { id = xte_truncate_ev.17 }
 			leader_event = { id = xte_truncate_ev.18 }
-			leader_event = { id = xte_truncate_ev.19 }
 			leader_event = { id = xte_truncate_ev.20 }
 			leader_event = { id = xte_truncate_ev.21 }
 			leader_event = { id = xte_truncate_ev.22 }
@@ -73,6 +133,71 @@ country_event = {
 			leader_event = { id = xte_truncate_ev.25 }
 			leader_event = { id = xte_truncate_ev.26 }
 		}
+		#Bio Module events
+		# every_owned_leader = {
+		# 	limit = { NOT = { leader_class = envoy } }
+		# 	leader_event = { id = xte_truncate_ev.1 }
+		# 	leader_event = { id = xte_truncate_ev.2 }
+		# 	leader_event = { id = xte_truncate_ev.3 }
+		# 	leader_event = { id = xte_truncate_ev.4 }
+		# 	leader_event = { id = xte_truncate_ev.5 }
+		# 	leader_event = { id = xte_truncate_ev.6 }
+		# 	leader_event = { id = xte_truncate_ev.7 }
+		# 	leader_event = { id = xte_truncate_ev.8 }
+		# 	leader_event = { id = xte_truncate_ev.9 }
+		# 	leader_event = { id = xte_truncate_ev.10 }
+		# 	leader_event = { id = xte_truncate_ev.11 }
+		# 	leader_event = { id = xte_truncate_ev.12 }
+		# 	leader_event = { id = xte_truncate_ev.13 }
+		# 	leader_event = { id = xte_truncate_ev.14 }
+		# 	leader_event = { id = xte_truncate_ev.15 }
+		# 	leader_event = { id = xte_truncate_ev.16 }
+		# 	leader_event = { id = xte_truncate_ev.17 }
+		# 	leader_event = { id = xte_truncate_ev.18 }
+		# 	leader_event = { id = xte_truncate_ev.19 }
+		# 	leader_event = { id = xte_truncate_ev.20 }
+		# 	leader_event = { id = xte_truncate_ev.21 }
+		# 	leader_event = { id = xte_truncate_ev.22 }
+		# 	leader_event = { id = xte_truncate_ev.23 }
+		# 	leader_event = { id = xte_truncate_ev.24 }
+		# 	leader_event = { id = xte_truncate_ev.25 }
+		# 	leader_event = { id = xte_truncate_ev.26 }
+		# 	leader_event = { id = xte_truncate_ev.27 }
+		# 	leader_event = { id = xte_truncate_ev.28 }
+		# 	leader_event = { id = xte_truncate_ev.29 }
+		# }
+		# every_pool_leader = {
+		# 	limit = { NOT = { leader_class = envoy } }
+		# 	leader_event = { id = xte_truncate_ev.1 }
+		# 	leader_event = { id = xte_truncate_ev.2 }
+		# 	leader_event = { id = xte_truncate_ev.3 }
+		# 	leader_event = { id = xte_truncate_ev.4 }
+		# 	leader_event = { id = xte_truncate_ev.5 }
+		# 	leader_event = { id = xte_truncate_ev.6 }
+		# 	leader_event = { id = xte_truncate_ev.7 }
+		# 	leader_event = { id = xte_truncate_ev.8 }
+		# 	leader_event = { id = xte_truncate_ev.9 }
+		# 	leader_event = { id = xte_truncate_ev.10 }
+		# 	leader_event = { id = xte_truncate_ev.11 }
+		# 	leader_event = { id = xte_truncate_ev.12 }
+		# 	leader_event = { id = xte_truncate_ev.13 }
+		# 	leader_event = { id = xte_truncate_ev.14 }
+		# 	leader_event = { id = xte_truncate_ev.15 }
+		# 	leader_event = { id = xte_truncate_ev.16 }
+		# 	leader_event = { id = xte_truncate_ev.17 }
+		# 	leader_event = { id = xte_truncate_ev.18 }
+		# 	leader_event = { id = xte_truncate_ev.19 }
+		# 	leader_event = { id = xte_truncate_ev.20 }
+		# 	leader_event = { id = xte_truncate_ev.21 }
+		# 	leader_event = { id = xte_truncate_ev.22 }
+		# 	leader_event = { id = xte_truncate_ev.23 }
+		# 	leader_event = { id = xte_truncate_ev.24 }
+		# 	leader_event = { id = xte_truncate_ev.25 }
+		# 	leader_event = { id = xte_truncate_ev.26 }
+		# 	leader_event = { id = xte_truncate_ev.27 }
+		# 	leader_event = { id = xte_truncate_ev.28 }
+		# 	leader_event = { id = xte_truncate_ev.29 }
+		# }
 	}
 }
 
@@ -104,9 +229,7 @@ leader_event = {
 			has_trait = xte_admiral_trait_arrogant
 			has_trait = xte_general_trait_cavalier
 		}
-		species = {
-			NOT = { has_trait = xte_trait_prideful }
-		}
+		species = { NOT = { has_trait = xte_trait_prideful } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_arrogant
@@ -120,11 +243,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_leader_trait_enlightened
-		species = {
-			NOT = {
-				has_trait = xte_trait_avant_garde
-			}
-		}
+		species = { NOT = { has_trait = xte_trait_avant_garde } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_enlightened
@@ -137,9 +256,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_admiral_trait_gunnery_expert
-		species = {
-			NOT = { has_trait = xte_trait_natural_chemists }
-		}
+		species = { NOT = { has_trait = xte_trait_natural_chemists } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_gunnery_expert
@@ -152,9 +269,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_admiral_trait_propulsion_expert
-		species = {
-			NOT = { has_trait = xte_trait_natural_refiners }
-		}
+		species = { NOT = { has_trait = xte_trait_natural_refiners } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_propulsion_expert
@@ -167,9 +282,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_admiral_trait_computing_expert
-		species = {
-			NOT = { has_trait = xte_trait_natural_translucers }
-		}
+		species = { NOT = { has_trait = xte_trait_natural_translucers } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_computing_expert
@@ -186,9 +299,7 @@ leader_event = {
 			has_trait = xte_governor_trait_sheriff
 			has_trait = xte_admiral_trait_gendarme
 		}
-		species = {
-			NOT = { has_trait = xte_trait_lawful }
-		}
+		species = { NOT = { has_trait = xte_trait_lawful } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_lawbringer
@@ -203,9 +314,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_scientist_trait_pathfinder
-		species = {
-			NOT = { has_trait = xte_trait_inquisitive }
-		}
+		species = { NOT = { has_trait = xte_trait_inquisitive } }
 	}
 	immediate = {
 		remove_trait = xte_scientist_trait_pathfinder
@@ -218,9 +327,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_governor_trait_patron_of_the_arts
-		species = {
-			NOT = { has_trait = xte_trait_creative }
-		}
+		species = { NOT = { has_trait = xte_trait_creative } }
 	}
 	immediate = {
 		remove_trait = xte_governor_trait_patron_of_the_arts
@@ -233,9 +340,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_governor_trait_forge_master
-		species = {
-			NOT = { has_trait = xte_trait_crafty }
-		}
+		species = { NOT = { has_trait = xte_trait_crafty } }
 	}
 	immediate = {
 		remove_trait = xte_governor_trait_forge_master
@@ -248,9 +353,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_governor_trait_diligent
-		species = {
-			NOT = { has_trait = xte_trait_humble }
-		}
+		species = { NOT = { has_trait = xte_trait_humble } }
 	}
 	immediate = {
 		remove_trait = xte_governor_trait_diligent
@@ -263,9 +366,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_leader_trait_regal
-		species = {
-			NOT = { has_trait = xte_trait_illustrious }
-		}
+		species = { NOT = { has_trait = xte_trait_illustrious } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_regal
@@ -281,9 +382,7 @@ leader_event = {
 			has_trait = xte_admiral_trait_carrier_commander
 			has_trait = xte_general_trait_battle_mounts
 		}
-		species = {
-			NOT = { has_trait = xte_trait_gifted_pilots }
-		}
+		species = { NOT = { has_trait = xte_trait_gifted_pilots } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_carrier_commander
@@ -297,9 +396,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_leader_trait_polymath
-		species = {
-			NOT = { has_trait = xte_trait_flexible }
-		}
+		species = { NOT = { has_trait = xte_trait_flexible } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_polymath
@@ -312,9 +409,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_governor_trait_efficient
-		species = {
-			NOT = { has_trait = xte_trait_urban }
-		}
+		species = { NOT = { has_trait = xte_trait_urban } }
 	}
 	immediate = {
 		remove_trait = xte_governor_trait_efficient
@@ -327,9 +422,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_admiral_trait_underdog
-		species = {
-			NOT = { has_trait = xte_trait_intrepid }
-		}
+		species = { NOT = { has_trait = xte_trait_intrepid } }
 	}
 	immediate = {
 		remove_trait = xte_admiral_trait_underdog
@@ -345,9 +438,7 @@ leader_event = {
 			has_trait = xte_leader_trait_life_crafter
 			has_trait = xte_governor_trait_machinist
 		}
-		species = {
-			NOT = { has_trait = xte_trait_practical }
-		}
+		species = { NOT = { has_trait = xte_trait_practical } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_life_crafter
@@ -364,9 +455,7 @@ leader_event = {
 			has_trait = xte_leader_trait_life_weaver
 			has_trait = xte_governor_trait_naturalist
 		}
-		species = {
-			NOT = { has_trait = xte_trait_theoretical }
-		}
+		species = { NOT = { has_trait = xte_trait_theoretical } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_life_weaver
@@ -402,9 +491,7 @@ leader_event = {
 			has_trait = xte_general_trait_forecaster
 			has_trait = xte_scientist_trait_pioneer
 		}
-		species = {
-			NOT = { has_trait = xte_trait_analytical }
-		}
+		species = { NOT = { has_trait = xte_trait_analytical } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_arcanist
@@ -422,9 +509,7 @@ leader_event = {
 			has_trait = xte_leader_trait_valiant
 			has_trait = xte_admiral_trait_paladin
 		}
-		species = {
-			NOT = { has_trait = xte_trait_stalwart }
-		}
+		species = { NOT = { has_trait = xte_trait_stalwart } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_valiant
@@ -440,9 +525,7 @@ leader_event = {
 		OR = {
 			has_trait = xte_leader_trait_ancestral_knowledge
 		}
-		species = {
-			NOT = { has_trait = xte_trait_genetic_memory }
-		}
+		species = { NOT = { has_trait = xte_trait_genetic_memory } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_ancestral_knowledge
@@ -455,9 +538,7 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		has_trait = xte_leader_trait_skyborne_architect
-		species = {
-			NOT = { has_trait = xte_trait_megalomaniacs }
-		}
+		species = { NOT = { has_trait = xte_trait_megalomaniacs } }
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_skyborne_architect
@@ -509,5 +590,63 @@ leader_event = {
 	}
 	immediate = {
 		remove_trait = xte_leader_trait_maladroit
+	}
+}
+
+
+leader_event = {
+	id = xte_truncate_ev.27
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = xte_admiral_trait_inspired_thermal_engineer
+			has_trait = xte_general_trait_thermic_symbiote
+		}
+		species = {
+			NOR = {
+				has_trait = xte_trait_ectothermic
+				has_trait = xte_trait_ectothermic_lithoid
+			}
+		}
+	}
+	immediate = {
+		remove_trait = xte_admiral_trait_inspired_thermal_engineer
+		remove_trait = xte_general_trait_thermic_symbiote
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.28
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_trait = xte_governor_trait_fanatic_thermopile
+			has_trait = xte_scientist_trait_enzyme_curator
+		}
+		species = {
+			NOR = {
+				has_trait = xte_trait_hypermetabolism
+				has_trait = xte_trait_hypermetabolism_lithoid
+			}
+		}
+	}
+	immediate = {
+		remove_trait = xte_governor_trait_fanatic_thermopile
+		remove_trait = xte_scientist_trait_enzyme_curator
+	}
+}
+
+leader_event = {
+	id = xte_truncate_ev.29
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_trait = xte_governor_trait_inattentive
+		species = { NOT = { has_trait = xte_trait_truculent } }
+	}
+	immediate = {
+		remove_trait = xte_governor_trait_inattentive
 	}
 }

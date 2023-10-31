@@ -1,4 +1,5 @@
 namespace = xte_annex_ev
+
 country_event = {
 	#Bio Module events
 	id = xte_annex_ev.1000
@@ -23,11 +24,14 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.18 }
 					leader_event = { id =  xte_traits_ev.19 }
 					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.28 }
+					leader_event = { id =  xte_traits_ev.29 }
 				}
 				scientist = {
 					leader_event = { id =  xte_traits_ev.1 }
 					leader_event = { id =  xte_traits_ev.8 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.28 }
 				}
 				admiral = {
 					leader_event = { id =  xte_traits_ev.1 }
@@ -40,11 +44,13 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.16 }
 					leader_event = { id =  xte_traits_ev.21 }
 					leader_event = { id =  xte_traits_ev.24 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 				general = {
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.13 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 			}
 
@@ -77,11 +83,14 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.18 }
 					leader_event = { id =  xte_traits_ev.19 }
 					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.28 }
+					leader_event = { id =  xte_traits_ev.29 }
 				}
 				scientist = {
 					leader_event = { id =  xte_traits_ev.1 }
 					leader_event = { id =  xte_traits_ev.8 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.28 }
 				}
 				admiral = {
 					leader_event = { id =  xte_traits_ev.1 }
@@ -94,11 +103,13 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.16 }
 					leader_event = { id =  xte_traits_ev.21 }
 					leader_event = { id =  xte_traits_ev.24 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 				general = {
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.13 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 			}
 
