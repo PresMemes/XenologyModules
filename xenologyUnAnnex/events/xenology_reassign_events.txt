@@ -14,7 +14,7 @@ country_event = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				governor = {
+				official = {
 					leader_event = { id =  xte_traits_ev.7 }
 					leader_event = { id =  xte_traits_ev.9 }
 					leader_event = { id =  xte_traits_ev.10 }
@@ -33,7 +33,7 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 					leader_event = { id =  xte_traits_ev.28 }
 				}
-				admiral = {
+				commander = {
 					leader_event = { id =  xte_traits_ev.1 }
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.4 }
@@ -45,8 +45,6 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.21 }
 					leader_event = { id =  xte_traits_ev.24 }
 					leader_event = { id =  xte_traits_ev.27 }
-				}
-				general = {
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.13 }
 					leader_event = { id =  xte_traits_ev.20 }
@@ -73,7 +71,7 @@ country_event = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				governor = {
+				official = {
 					leader_event = { id =  xte_traits_ev.7 }
 					leader_event = { id =  xte_traits_ev.9 }
 					leader_event = { id =  xte_traits_ev.10 }
@@ -92,7 +90,7 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 					leader_event = { id =  xte_traits_ev.28 }
 				}
-				admiral = {
+				commander = {
 					leader_event = { id =  xte_traits_ev.1 }
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.4 }
@@ -104,8 +102,6 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.21 }
 					leader_event = { id =  xte_traits_ev.24 }
 					leader_event = { id =  xte_traits_ev.27 }
-				}
-				general = {
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.13 }
 					leader_event = { id =  xte_traits_ev.20 }

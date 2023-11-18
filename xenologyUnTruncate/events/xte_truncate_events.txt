@@ -19,7 +19,7 @@ country_event = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				governor = {
+				official = {
 					leader_event = { id =  xte_truncate_ev.7 }
 					leader_event = { id =  xte_truncate_ev.9 }
 					leader_event = { id =  xte_truncate_ev.10 }
@@ -38,7 +38,7 @@ country_event = {
 					leader_event = { id =  xte_truncate_ev.20 }
 					leader_event = { id =  xte_truncate_ev.28 }
 				}
-				admiral = {
+				commander = {
 					leader_event = { id =  xte_truncate_ev.1 }
 					leader_event = { id =  xte_truncate_ev.2 }
 					leader_event = { id =  xte_truncate_ev.4 }
@@ -50,8 +50,6 @@ country_event = {
 					leader_event = { id =  xte_truncate_ev.21 }
 					leader_event = { id =  xte_truncate_ev.24 }
 					leader_event = { id =  xte_truncate_ev.27 }
-				}
-				general = {
 					leader_event = { id =  xte_truncate_ev.2 }
 					leader_event = { id =  xte_truncate_ev.13 }
 					leader_event = { id =  xte_truncate_ev.20 }
@@ -78,7 +76,7 @@ country_event = {
 			limit = { NOT = { leader_class = envoy } }
 			switch = {
 				trigger = leader_class
-				governor = {
+				official = {
 					leader_event = { id =  xte_truncate_ev.7 }
 					leader_event = { id =  xte_truncate_ev.9 }
 					leader_event = { id =  xte_truncate_ev.10 }
@@ -97,7 +95,7 @@ country_event = {
 					leader_event = { id =  xte_truncate_ev.20 }
 					leader_event = { id =  xte_truncate_ev.28 }
 				}
-				admiral = {
+				commander = {
 					leader_event = { id =  xte_truncate_ev.1 }
 					leader_event = { id =  xte_truncate_ev.2 }
 					leader_event = { id =  xte_truncate_ev.4 }
@@ -109,8 +107,6 @@ country_event = {
 					leader_event = { id =  xte_truncate_ev.21 }
 					leader_event = { id =  xte_truncate_ev.24 }
 					leader_event = { id =  xte_truncate_ev.27 }
-				}
-				general = {
 					leader_event = { id =  xte_truncate_ev.2 }
 					leader_event = { id =  xte_truncate_ev.13 }
 					leader_event = { id =  xte_truncate_ev.20 }
@@ -133,71 +129,6 @@ country_event = {
 			leader_event = { id = xte_truncate_ev.25 }
 			leader_event = { id = xte_truncate_ev.26 }
 		}
-		#Bio Module events
-		# every_owned_leader = {
-		# 	limit = { NOT = { leader_class = envoy } }
-		# 	leader_event = { id = xte_truncate_ev.1 }
-		# 	leader_event = { id = xte_truncate_ev.2 }
-		# 	leader_event = { id = xte_truncate_ev.3 }
-		# 	leader_event = { id = xte_truncate_ev.4 }
-		# 	leader_event = { id = xte_truncate_ev.5 }
-		# 	leader_event = { id = xte_truncate_ev.6 }
-		# 	leader_event = { id = xte_truncate_ev.7 }
-		# 	leader_event = { id = xte_truncate_ev.8 }
-		# 	leader_event = { id = xte_truncate_ev.9 }
-		# 	leader_event = { id = xte_truncate_ev.10 }
-		# 	leader_event = { id = xte_truncate_ev.11 }
-		# 	leader_event = { id = xte_truncate_ev.12 }
-		# 	leader_event = { id = xte_truncate_ev.13 }
-		# 	leader_event = { id = xte_truncate_ev.14 }
-		# 	leader_event = { id = xte_truncate_ev.15 }
-		# 	leader_event = { id = xte_truncate_ev.16 }
-		# 	leader_event = { id = xte_truncate_ev.17 }
-		# 	leader_event = { id = xte_truncate_ev.18 }
-		# 	leader_event = { id = xte_truncate_ev.19 }
-		# 	leader_event = { id = xte_truncate_ev.20 }
-		# 	leader_event = { id = xte_truncate_ev.21 }
-		# 	leader_event = { id = xte_truncate_ev.22 }
-		# 	leader_event = { id = xte_truncate_ev.23 }
-		# 	leader_event = { id = xte_truncate_ev.24 }
-		# 	leader_event = { id = xte_truncate_ev.25 }
-		# 	leader_event = { id = xte_truncate_ev.26 }
-		# 	leader_event = { id = xte_truncate_ev.27 }
-		# 	leader_event = { id = xte_truncate_ev.28 }
-		# 	leader_event = { id = xte_truncate_ev.29 }
-		# }
-		# every_pool_leader = {
-		# 	limit = { NOT = { leader_class = envoy } }
-		# 	leader_event = { id = xte_truncate_ev.1 }
-		# 	leader_event = { id = xte_truncate_ev.2 }
-		# 	leader_event = { id = xte_truncate_ev.3 }
-		# 	leader_event = { id = xte_truncate_ev.4 }
-		# 	leader_event = { id = xte_truncate_ev.5 }
-		# 	leader_event = { id = xte_truncate_ev.6 }
-		# 	leader_event = { id = xte_truncate_ev.7 }
-		# 	leader_event = { id = xte_truncate_ev.8 }
-		# 	leader_event = { id = xte_truncate_ev.9 }
-		# 	leader_event = { id = xte_truncate_ev.10 }
-		# 	leader_event = { id = xte_truncate_ev.11 }
-		# 	leader_event = { id = xte_truncate_ev.12 }
-		# 	leader_event = { id = xte_truncate_ev.13 }
-		# 	leader_event = { id = xte_truncate_ev.14 }
-		# 	leader_event = { id = xte_truncate_ev.15 }
-		# 	leader_event = { id = xte_truncate_ev.16 }
-		# 	leader_event = { id = xte_truncate_ev.17 }
-		# 	leader_event = { id = xte_truncate_ev.18 }
-		# 	leader_event = { id = xte_truncate_ev.19 }
-		# 	leader_event = { id = xte_truncate_ev.20 }
-		# 	leader_event = { id = xte_truncate_ev.21 }
-		# 	leader_event = { id = xte_truncate_ev.22 }
-		# 	leader_event = { id = xte_truncate_ev.23 }
-		# 	leader_event = { id = xte_truncate_ev.24 }
-		# 	leader_event = { id = xte_truncate_ev.25 }
-		# 	leader_event = { id = xte_truncate_ev.26 }
-		# 	leader_event = { id = xte_truncate_ev.27 }
-		# 	leader_event = { id = xte_truncate_ev.28 }
-		# 	leader_event = { id = xte_truncate_ev.29 }
-		# }
 	}
 }
 
