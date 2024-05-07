@@ -5,6 +5,6 @@ tags={
 	"Gameplay"
 	"Overhaul"
 }
-name="Xenology : Traits Expansion Unofficial - Scaling Module (3.11.X)"
-supported_version="3.11.*"
+name="Xenology : Traits Expansion Unofficial - Scaling Module (3.12.X)"
+supported_version="3.12.*"
 remote_file_id="2981827690"
